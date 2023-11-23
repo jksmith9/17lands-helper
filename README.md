@@ -1,5 +1,5 @@
 # 17lands Helper Bot
-Discord bot for scraping 17lands data
+Discord bot for scraping 17lands data. Forked from Jason Ye's to continue set updates.
 
 ## Status
 The bot is currently hosted on heroku, so should be up continuously! I am not currently actively developing it, though I may add some more features in the future. Feel free to make a PR if you have an improvement/idea!
