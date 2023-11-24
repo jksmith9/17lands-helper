@@ -1,5 +1,5 @@
 from discord import Client, Message, Intents
-from discord.ext import tasks
+from discord.ext import tasks, commands
 
 from chat_bot.utils.consts import COMMAND_STR, DATA_QUERY_L, DATA_QUERY_R
 from chat_bot.utils.settings import UPDATING_SETS, OLD_SETS
@@ -9,7 +9,12 @@ from chat_bot.DataCache import DataCache
 
 import asyncio
 
-client: Client = Client(intents=Intents.default())
+intents = Intents.default()
+intents.presences = True
+intents.members = True
+intents.message_content = True
+
+client: Client = Client(intents=intents)
 
 @client.event
 async def on_message(message: Message) -> None:
@@ -18,7 +23,7 @@ async def on_message(message: Message) -> None:
     :param message: The sent message.
     """
     # Don't parse own messages
-    if message.author == client.user:
+    if message.author == client.user:   
         return
 
     print('received message:' + message.content)
