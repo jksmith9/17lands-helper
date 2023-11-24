@@ -1,5 +1,5 @@
 UPDATING_SETS: list[str] = ['LCI']
-OLD_SETS: list[str] = ['DMU', 'BRO', 'ONE', 'MOM', 'WOE']
+OLD_SETS: list[str] = ['ONE', 'MOM', 'LTR', 'WOE']
 SETS: list[str] = UPDATING_SETS + OLD_SETS
 START_DATE: str = '2020-01-01'
 DEFAULT_FORMAT: str = 'PremierDraft'
