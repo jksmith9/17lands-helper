@@ -1,7 +1,7 @@
 UPDATING_SETS: list[str] = ['MKM']
-OLD_SETS: list[str] = ['LCI']
+OLD_SETS: list[str] = ['']
 SETS: list[str] = UPDATING_SETS + OLD_SETS
-START_DATE: str = '2020-01-01'
+START_DATE: str = '2022-01-01'
 DEFAULT_FORMAT: str = 'PremierDraft'
 
 
