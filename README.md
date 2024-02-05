@@ -48,6 +48,6 @@ The bot currently responds to the following commands:
         - `{{jadar "gisa resurrector" | drafts gih -c=ub}}` will give ALSA, ATA, and GIH data for Jadar, Ghoulcaller of Nephalia and Gisa, Glorious Resurrector in UB decks only.
 
 ## Acknowledgements
-Huge thanks to ZacharyN for helping with development - among other things they made the nice embeds!
+Thanks be to Jason Ye and ZacharyN for developing most of the framework that has made this fork possible!
 
 And of course, none of this would be possible without the excellent work of Scryfall and 17lands!
