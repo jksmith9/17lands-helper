@@ -2,7 +2,7 @@
 Discord bot for scraping 17lands data. Forked from Jason Ye's to continue set updates.
 
 ## Status
-The bot is currently hosted on heroku, so should be up continuously! I am not currently actively developing it, though I may add some more features in the future. Feel free to make a PR if you have an improvement/idea!
+The bot is currently hosted on Fly.io. This is an active fork from Jason Ye's design, so I make improvements when possible.
 
 ## How to invite
 Go to [this link](https://discord.com/api/oauth2/authorize?client_id=1175538020213080094&permissions=517544074304&scope=bot) to invite the bot to your server.
