@@ -2,10 +2,10 @@
 Discord bot for scraping 17lands data. Forked from Jason Ye's to continue set updates.
 
 ## Status
-The bot is currently hosted on heroku, so should be up continuously! I am not currently actively developing it, though I may add some more features in the future. Feel free to make a PR if you have an improvement/idea!
+The bot is currently hosted on Fly.io. This is an active fork from Jason Ye's design, so I make improvements when possible.
 
 ## How to invite
-Go to [this link](https://discord.com/api/oauth2/authorize?client_id=890628197664817203&permissions=380104920128&scope=bot) to invite the bot to your server.
+Go to [this link](https://discord.com/api/oauth2/authorize?client_id=1175538020213080094&permissions=517544074304&scope=bot) to invite the bot to your server.
 
 ## How to use
 
@@ -48,6 +48,6 @@ The bot currently responds to the following commands:
         - `{{jadar "gisa resurrector" | drafts gih -c=ub}}` will give ALSA, ATA, and GIH data for Jadar, Ghoulcaller of Nephalia and Gisa, Glorious Resurrector in UB decks only.
 
 ## Acknowledgements
-Huge thanks to ZacharyN for helping with development - among other things they made the nice embeds!
+Thanks be to Jason Ye and ZacharyN for developing most of the framework that has made this fork possible!
 
 And of course, none of this would be possible without the excellent work of Scryfall and 17lands!
