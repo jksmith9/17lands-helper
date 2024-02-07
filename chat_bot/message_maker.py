@@ -43,9 +43,9 @@ async def handle_command(message: str, channel: TextChannel):
     if command == 'colors':
         await send_embed_message(channel, supported_color_strings())
     elif command == 'help':
-        await send_message(channel, 'Read the README here: <https://github.com/JasonYe4273/17lands-helper>')
+        await send_message(channel, 'Read the README here: <https://github.com/jksmith9/17lands-helper>')
     elif command == 'code':
-        await send_message(channel, '<https://github.com/JasonYe4273/17lands-helper>')
+        await send_message(channel, '<https://github.com/jksmith9/17lands-helper>')
     else:
         await send_message(channel, 'Current available commands are `colors`, `help`, and `code`')
 
