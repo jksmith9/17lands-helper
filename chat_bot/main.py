@@ -42,10 +42,9 @@ async def refresh_data() -> None:
     """
     Refreshes data about the set on a loop.
     """
+    print('#### UPDATING SETS ####')
     DataCache.fetch_data(UPDATING_SETS)
-    ##for s in UPDATING_SETS:
-    ##    mgr = SetManager(s, True, False)
-    ##    mgr.check_for_updates()
+    DataCache.fetch_data(OLD_SETS)
 
 
 @client.event
@@ -54,7 +53,7 @@ async def on_ready() -> None:
     Set up for the bot, which happens when it is first loaded.
     """
     Manamoji.cache_manamojis(client)
-    DataCache.fetch_data(OLD_SETS)
+    refresh_data.start()
     ##for s in OLD_SETS:
     ##    mgr = SetManager(s, True, False)
     ##    mgr.check_for_updates()
@@ -62,7 +61,6 @@ async def on_ready() -> None:
 
 
 def main():
-    asyncio.run(refresh_data())
     try:
         import os
         client.run(os.environ['TOKEN'])
